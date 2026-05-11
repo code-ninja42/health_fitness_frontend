@@ -30,7 +30,7 @@ function App() {
       const data = await response.json();
 
       setResult(
-        "Predicted Weight: " +
+        "Predicted Weight for you: " +
           Number(data.predicted_weight).toFixed(2) +
           " kg"
       );
@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Health Fitness Predictor</h1>
+      <h1>Health Fitness Predictor1</h1>
 
       <div className="card">
         <input
