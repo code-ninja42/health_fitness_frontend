@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:8000/predict";
+const API_URL = "https://health-fitness-backend-vryw.onrender.com/predict";
 
 function App() {
   const [exercise, setExercise] = useState("");
